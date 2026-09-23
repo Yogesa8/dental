@@ -1,17 +1,12 @@
-import React, { useEffect } from "react";
-import Banner from "./component/Banner";
-import Hero from "./component/Hero";
-import Footer from "./common/Footer";
-import Feature from "./component/Feature";
-import Team from "./component/Team";
-import Services from "./component/Services";
-import Contact from "./component/Contact";
-import Testimonial from "./component/Testimonial";
-import CalltoAction from "./component/CalltoAction";
-import ReactLenis from "lenis/react";
+import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import DentalImg from "./component/DentalImg";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Landing from "./pages/Landing";
+import ReactLenis from "lenis/react";
+import Footer from "./common/Footer";
+import Header from "./common/Header";
+import Services from "./pages/services/Services";
 
 const App = () => {
   useEffect(() => {
@@ -30,16 +25,14 @@ const App = () => {
           lerp: 0.08,
         }}
       />
-      <Banner />
-      <Hero />
-      <Feature />
-      <Team />
-      <Services />
-      <Testimonial />
-      <Contact />
-      <DentalImg />
-      <CalltoAction />
-      <Footer />
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Landing />} />
+          <Route path="/services" element={<Services />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   );
 };

@@ -3,7 +3,7 @@ import f2 from "../assets/feature/f2.png";
 
 const Feature = () => {
   return (
-      <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="flex w-full min-h-screen flex-col items-center justify-center gap-5 px-4 py-16 sm:gap-6 sm:px-6 sm:py-20 lg:px-10 xl:px-16">
+      <section data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="flex w-full min-h-screen flex-col items-center justify-center gap-5 px-4 py-16 sm:gap-6 sm:px-6 sm:py-20 lg:px-10 xl:px-16 bg-[#FFFFFF]">
         <button className="flex items-center gap-2 text-indigo-600 text-sm px-6 py-3 rounded-full bg-indigo-50">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -19,15 +19,14 @@ const Feature = () => {
           >
             <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
           </svg>
-          Our team
+          Why Choose Us
         </button>
         <h2 className="max-w-lg text-center text-2xl leading-snug font-semibold text-gray-800 sm:text-3xl md:text-4xl">
-          Meet the expert driving creativity and innovation
+          More Than Dental Care. A Better Experience.
         </h2>
 
         <p className="mx-auto max-w-md text-center text-sm leading-6 text-zinc-600 sm:text-base">
-          Modern dental care powered by precision, technology and seamless
-          collaboration.
+          We combine experienced dentists, modern technology, and patient-focused care to make every visit simple and comfortable.
         </p>
 
         <div className="mt-4 grid w-full max-w-7xl gap-5 sm:mt-6 sm:gap-6">
@@ -61,13 +60,11 @@ const Feature = () => {
                 </div>
 
                 <h3 className="text-sm font-medium text-zinc-900">
-                  Seamless Digital Workflow
+                  Experienced Professionals
                 </h3>
 
                 <p className="text-sm/6 text-zinc-800 mt-2.5">
-                  Connect clinics and dental labs through a streamlined digital
-                  workflow for faster communication, better coordination and
-                  smoother treatment planning.
+                  Skilled dentists providing careful, personalized treatment for every patient.
                 </p>
               </div>
             </div>
@@ -101,13 +98,11 @@ const Feature = () => {
               </div>
 
               <h3 className="text-sm font-medium text-zinc-900">
-                Precision You Can Trust
+                Advanced Technology
               </h3>
 
               <p className="text-sm text-zinc-800 mt-2.5 leading-6">
-                Accurate digital processes help reduce errors and deliver
-                consistent, reliable dental restorations designed around every
-                patient's needs.
+                Modern dental tools and equipment for accurate diagnosis and precise treatment.
               </p>
             </div>
           </div>
@@ -142,13 +137,11 @@ const Feature = () => {
                 </div>
 
                 <h3 className="text-sm font-medium text-zinc-900">
-                  Better Patient Experience
+                  Patient-First Approach
                 </h3>
 
                 <p className="text-sm/6 text-zinc-800 mt-2.5">
-                  Faster turnaround, accurate results and coordinated care help
-                  dentists deliver a smoother experience and more confident
-                  smiles for every patient.
+                  Comfortable care, clear guidance, and a smooth experience from consultation to treatment.
                 </p>
               </div>
             </div>
