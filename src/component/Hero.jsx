@@ -3,6 +3,7 @@ import heroTeeth from "../assets/dental.png";
 const Hero = () => {
   return (
     <section
+      id="hero"
       className="flex min-h-svh flex-col items-center overflow-hidden bg-linear-to-b from-[#D9D9FF] to-[#F8F3F9] px-4 pb-10 pt-24 text-sm text-slate-800 sm:px-6 sm:pb-12 sm:pt-28 lg:px-10 xl:px-16"
     >
       <div className="mx-auto grid w-full max-w-7xl flex-1 grid-cols-1 items-center gap-8 py-8 sm:py-10 md:grid-cols-2 md:gap-10 md:py-12 lg:gap-16 lg:py-14">
