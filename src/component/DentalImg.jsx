@@ -26,7 +26,7 @@ const DentalImg = () => {
         Teath
       </button>
 
-      <img src={explode} alt="Dental Care" className="max-h-screen w-[50%] object-center" />
+      <img src={explode} alt="Dental Care" className="max-h-screen w-100 object-contain sm:w-[70%] lg:w-[80%]" />
     </section>
   );
 };

@@ -119,7 +119,7 @@ const Hero = () => {
       </div>
 
       <img
-        className="max-h-64 w-full max-w-4xl object-cover object-top px-4 md:max-h-100"
+        className=" w-full max-w-4xl object-cover object-top px-4 md:max-h-100"
         src={hero_img}
         alt=""
       />
